@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>maquetteNouvelleGeneration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-grille">
+      <!-- **************************************************************************HEADER***** -->
+      <header><em>NOUS SOMMES LES MEILLEURS, N'OUBLIEZ JAMAIS</em></header>
+      <!-- **********************************************************************************NAV******* -->
+      <nav>
+        <ul class="liste-sidenav">
+          <li><a href="#">Offres</a></li>
+          <li><a href="#">Espace client</a></li>
+          <li><a href="#">Applications</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Aide</a></li>
+        </ul>
+      </nav>
+      <!-- **************************************************************************************************Main -->
+      <main>
+        <div class="text-container">
+          <hr />
+          <h1>Pourquoi nous ?</h1>
+          <h2>C'est une évidence.</h2>
+          <img class="redSox" src="./ressources/redSock.JPG" alt="redSox" />
+          <p>
+           Depuis un an nous sommes leader sur le marché, notre tâche consiste à assurer le fonctionnement des services Internet et intranet qui y sont liés, tels le partage de ressources, la communication, l’hébergement, la téléphonie. Notre téchnologie est inovatrice et nouvelle sur le marché. En l'espace d'un an nous sommes devenus les meilleurs sur ces environnements
+            REDSOCK est une startup développé pour répondre à vos besoins<br/>
+            Notre slogan :<en>"Nous sommes les meilleurs ne l'oubliez jamais"</em> 
+              <br /><br />
+            Le système d’exploitation pour tablettes et mobiles le plus répandu dans le monde. Android forme avec iOS (Apple) un duopole sur le marché du mobile (plus de 2/3 des parts de marché sont détenues par Android).
+              <br /><br />
+            En se qui concerne notre boutique
+            Profitez de tous les services REDSOCK Livraison Offerte - Retrait 1h en Magasin - Retrait Drive - Garantie 2 ans* - SAV 7j/7
+              <br /><br />
+            Nous participons à la conception de réseaux et effectuons l’installation, la gestion et la sécurisation des réseaux, des serveurs et des ordinateurs.
+          </p>
+        </div>
+      </main>
+      <!-- **********************************************************************************************************ASIDE -->
+      <aside class="blocForm">
+        <form action="www.google.fr" method="post" target="_blank">
+          <h2>Merci de vous enregistrer</h2>
+          <br />
+          <label for="name">Votre nom et prénom</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Saisissez votre nom et prénom"
+          />
+          <label for="birthDate">Votre date de naissance</label>
+          <input
+            type="date"
+            name="birthDate"
+            id="birthDate"
+            required
+            placeholder="Saisissez votre date de naissance"
+          />
+          <label for="phone">Téléphone</label>
+          <input type="tel" name="phone" id="phone" placeholder="06XXXXXXXX" required/>
+          
+          <label for="password">Mots de passe</label>
+          <input type="password" id="password" placeholder="Enter your password" name="password" required/>
+            <!-- <p class="assist">8 caractères minimum</p> -->
+          <label for="email">Votre adresse e-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Saisissez votre e-mail"
+          />
+            <!-- <p class="Doit être de la forme abcd@abcd.abc</p> -->
+          <label for="category">Question</label>
+          <select id="category" name="category">
+            <option value="default">Choississez une catégorie</option>
+            <option value="help">Aide</option>
+            <option value="pro-contact">Contact professionnel</option>
+          </select>
+          <label for="comment">Commentaire</label>
+          <textarea
+            rows="4"
+            name="comment"
+            id="comment"
+            placeholder="Ajoutez un commentaire pertinent"
+          ></textarea>
+            <div>
+              <label for="tos" class="inline">J'accepte les conditions de services
+              <input type="checkbox" name="tos" id="tos" required></label>
+            </div>
+          <div class="input-group">
+            <input type="submit" value="Envoyer"></input>
+            <!-- <input class = "btnFormtype" type="reset" value="Vider le Formulaire"></input> -->
+          </div>
+        </form>
+      </aside>
+      <!-- **********************************************************************END OF ASIDE -->
+      <!--------------------------------------------------------------------------------------FOOTER -->
+      <footer class="foot">
+        <div class="medias">
+          <a href="https://twitter.com" target="blank">
+            <div class="media media3">
+              <img
+                src="ressources/twitter.svg"
+                alt="twitter icone"
+                class="icone-medias"
+              />
+            </div>
+          </a>
+          <a href="https://facebook.com" target="blank">
+            <div class="media media1">
+              <img
+                src="ressources/facebook.svg"
+                alt="facebook icone"
+                class="icone-medias"
+              />
+            </div>
+          </a>
+          <a href="https://pinterest.com" target="blank">
+            <div class="media media2">
+              <img
+                src="ressources/pinterest.svg"
+                alt="pinterest icone"
+                class="icone-medias"
+              />
+            </div>
+          </a>
+          <a href="https://google.com" target="blank">
+            <div class="media media4">
+              <img
+                src="ressources/google.svg"
+                alt="google icone"
+                class="icone-medias"
+              />
+            </div>
+          </a>
+        </div>
+        <span>2022 &copy; Lepretre Philippe</span>
+      </footer>
+      <!-- *********************************************************************************eND OF FOOTER -->
+    </div>
+  </body>
+</html>
